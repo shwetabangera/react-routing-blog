@@ -9,7 +9,7 @@ class NotFound extends Component {
 				<img
 					className={styles["not-found-image"]}
 					src="https://www.artzstudio.com/wp-content/uploads/2020/05/404-error-not-found-page-lost-1024x788.png"
-					alt="Page Not Found"
+					alt="404 Page Not Found"
 				/>
 				<Link className={styles["back"]} to="/blogs">
 					<button>Go Back</button>
