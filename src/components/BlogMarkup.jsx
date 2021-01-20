@@ -21,7 +21,7 @@ class BlogMarkup extends Component {
 				</main>
 				<aside>
 					<div className={styles["blog-links-container"]}>
-						<p className={styles["blog-links-header"]}>Related Blogs:</p>
+						<p className={styles["blog-links-header"]}>Related Blogs</p>
 						{this.props.blog.links.map((link, i) => {
 							return (
 								<div key={`${link.id}${i}`}>
